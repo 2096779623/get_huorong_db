@@ -25,7 +25,7 @@ class MetasploitModule < Msf::Post
     )
     register_options([
       OptString.new('FILENAME', [true, 'Filename to download', '']),
-      OptString.new('DIRECTORY', [false, 'Directory'])
+      OptString.new('DIRECTORY', [false, 'Directory', ''])
     ])
   end
 
