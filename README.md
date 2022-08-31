@@ -24,10 +24,6 @@
 wget -O /usr/share/metasploit-framework/modules/post/windows/gather/get_huorong_db.rb https://raw.githubusercontent.com/2096779623/get_huorong_db/main/get_huorong_db.rb
 ```
 
-## Windows
-
-把[get_huorong_db.rb](https://raw.githubusercontent.com/2096779623/get_huorong_db/main/get_huorong_db.rb)丢到你的metasploit安装路径下的`embedded/framework/modules/post/windows/gather`文件夹。
-
 # 使用
 
 ```bash
