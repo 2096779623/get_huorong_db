@@ -32,7 +32,7 @@ class MetasploitModule < Msf::Post
   def run
     print_status('Getting Database')
     fname = datastore['FILENAME']
-    if datastore['DIRECTORY'].empty?
+    if datastore['DIRECTORY'] && datastore['DIRECTORY'].empty?
       hpath = "#{session.sys.config.getenv('PROGRAMDATA')}\\Huorong\\Sysdiag\\#{datastore['FILENAME']}"
     else
       hpath = "#{session.sys.config.getenv('PROGRAMDATA')}\\Huorong\\Sysdiag\\#{datastore['DIRECTORY']}\\#{datastore['FILENAME']}"
