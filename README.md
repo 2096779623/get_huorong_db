@@ -13,6 +13,7 @@
 | 系统防护            | user.db        |
 | 信任区,爆破攻击防护 | wlfile.db      |
 | 文件监控日志        | applog.db      |
+| 弹窗拦截            | popblkuser.db  |
 
 一个~~垃圾~~msf模块，师傅们轻点喷
 
