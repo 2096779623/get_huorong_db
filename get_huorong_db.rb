@@ -7,7 +7,7 @@ class MetasploitModule < Msf::Post
         info,
         'Name' => 'Get Huorong Database',
         'Description' => %q{
-          Get Huorong Database via download.
+          Get Huorong Database.
         },
         'License' => MSF_LICENSE,
         'Platform' => ['win'],
