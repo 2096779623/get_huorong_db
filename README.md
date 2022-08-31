@@ -15,6 +15,7 @@
 | 文件监控日志        | applog.db      |
 | 弹窗拦截            | popblkuser.db  |
 | 隔离区              | QuarantineEx.db |
+| 漏洞修复      | lpresult/* (改后缀为db)|
 
 一个~~垃圾~~msf模块，师傅们轻点喷
 
