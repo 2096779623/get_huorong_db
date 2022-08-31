@@ -36,3 +36,4 @@ set FILENAME #要获取的文件名
 set DIRECTORY #可选，指定目录，比如db，不需要加/或\
 set SESSION #懂得都懂
 run
+```
