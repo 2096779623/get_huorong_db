@@ -40,6 +40,8 @@ set SESSION #懂得都懂
 run
 ```
 
+把数据库弄到手之后用sqlite3或者像Navicat之类的软件打开即可。
+
 # 欢迎PR
 
 * 下载整个目录
